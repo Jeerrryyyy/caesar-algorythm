@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jeremias.BRAUN/CLionProjects/ceasar-algorythm/decode/decode.h
+iostream
+-
+
+C:/Users/Jeremias.BRAUN/CLionProjects/ceasar-algorythm/encode/encode.h
+iostream
+-
+
+C:/Users/Jeremias.BRAUN/CLionProjects/ceasar-algorythm/main.cpp
+iostream
+-
+string.h
+-
+decode/decode.h
+C:/Users/Jeremias.BRAUN/CLionProjects/ceasar-algorythm/decode/decode.h
+encode/encode.h
+C:/Users/Jeremias.BRAUN/CLionProjects/ceasar-algorythm/encode/encode.h
+

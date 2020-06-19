@@ -21,8 +21,20 @@ string decrypt(string input) {
             continue;
         }
 
-        if (isupper(i)) finishedText += char(int(i - (shift - 26) - 65) % 26 + 65);
-        else finishedText += char(int(i - (shift - 26) - 97) % 26 + 97);
+        int maths;
+        char finishedChar;
+
+        if (isupper(i)) {
+            maths = i - (shift - 26) - 65;
+            finishedChar = maths % 26 + 65;
+
+            finishedText += finishedChar;
+        } else {
+            maths = i - (shift - 26) - 97;
+            finishedChar = maths % 26 + 97;
+
+            finishedText += finishedChar;
+        }
     }
 
     return finishedText;
